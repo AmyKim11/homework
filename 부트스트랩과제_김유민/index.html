@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  </head>
+  <style>
+
+     .car{
+        background: url("images/shop.jpg") no-repeat center;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        height: 600px;
+        line-height: 600px;
+     }
+     .card{
+        border: none;
+     }
+     .d-flex{
+        margin: 0;
+     }
+  </style>
+ 
+  <body>
+   <div class="container bg-light">
+      <nav class="navbar navbar-expand-lg">
+         
+           <a class="navbar-brand" href="#">Cupcake Jeny</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarScroll">
+             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Menu</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Other</a>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Order
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                   <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                   <li><a class="dropdown-item" href="#">Other menu</a></li>
+                 </ul>
+               </li>
+             </ul>
+             <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-dark" type="submit">Search</button>
+             </form>
+           </div>
+         
+       </nav>
+      <div class="row">
+        <div class="col car">
+          Wellcome! And Try!  
+        </div>
+      </div>
+      <div class="row pt-4 bg-white">
+        <div class="col-3 pb-4">
+          <img src="./images/cupcake-2.jpg" alt="" width="100%" height="100%" class="rounded">
+        </div>
+        <div class="col-9">
+         <div class="card mt-5">
+            <div class="card-body">
+              <h5 class="card-title">Meet Special Our Cupcake!</h5>
+              <p class="card-text lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium nulla voluptatem quam architecto facere quisquam dolorum dolorem reiciendis est iste! 
+                 Iste dolore deserunt rerum? Commodi aperiam quis culpa est blanditiis.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Accusantium nulla voluptatem quam architecto facere quisquam dolorum dolorem reiciendis est iste! 
+                Iste dolore deserunt rerum? Commodi aperiam quis culpa est blanditiis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium nulla voluptatem quam architecto facere quisquam dolorum dolorem reiciendis est iste! 
+               Iste dolore deserunt rerum? Commodi aperiam quis culpa est blanditiis.</p>
+              <a href="#" class="btn btn-secondary">Go Details</a>
+            </div>
+          </div>
+      
+       </div>
+      </div>
+      <div class="row mt-4 bg-light">
+        <div class="col-9 pt-5">
+          <h1>Special Day! Special Cupcake!</h1>
+          <span class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium nulla voluptatem quam architecto facere quisquam dolorum dolorem reiciendis est iste! 
+           Iste dolore deserunt rerum? Commodi aperiam quis culpa est blanditiis.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Accusantium nulla voluptatem quam architecto facere quisquam dolorum dolorem reiciendis est iste! 
+          Iste dolore deserunt rerum? Commodi aperiam quis culpa est blanditiis.</span>
+        </div>
+        <div class="col-3 pb-4">
+         <img src="./images/spacial.jpg" alt="" width="100%" height="100%" class="rounded pt-2">
+       </div>
+      </div>
+      
+         <div class="row row-cols-3 justify-content-center text-center bg-secondary" style="--bs-bg-opacity: .5;">
+            <div class="col" style="height: 200px;padding-top: 50px;">
+               <p class="fs-3 fw-semibold">Subscribe Our News!</p>
+               <div class="col mt-1">
+                  <button type="button" class="btn btn-outline-secondary">Subscribe</button>
+               </div>
+            </div>
+         </div>
+
+      <div class="row">
+        <div class="col bg-dark" style="text-align: center; height: 100px; line-height: 100px; color: #fff;" >
+          <p>&copy; 2022.05.27 Cupcake Jeny</p>
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
